@@ -75,7 +75,7 @@ Each ticket gets an SLA target based on its priority. I set these up using ITIL 
 ### ✅ SLA Met or Breached
  
 ```
-=IF([@Resolution_Hrs]="","",IF([@Resolution_Hrs]<=[@SLA_Target_Hrs],"Met","Breached"))
+=IF([@[Resolution_Hrs]]="","",IF([@[Resolution_Hrs]]<=[@[SLA_Target_Hrs]],"Met","Breached"))
 ```
  
 Checks if the ticket was resolved within its SLA target. If there's no resolved date, it returns blank.
