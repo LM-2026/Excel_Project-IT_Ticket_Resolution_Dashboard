@@ -133,6 +133,8 @@ The dashboard has Priority and Ticket Type slicers plus a date Timeline. All thr
 - The analysis only includes tickets resolved within 90 days to keep the averages meaningful.
 - 853 tickets with no resolved date are left out of the resolution time analysis.
 - 31,047 tickets had no one assigned to them - I kept these in since resolution time is still valid.
+- SLA targets are based on ITIL best practice - the company's actual targets weren't available.
+  
 ---
 ## 👤 Key Insights and Recommendations
 Context: SLA results calculated using ITIL based targets and tickets resolved within 90 days.
