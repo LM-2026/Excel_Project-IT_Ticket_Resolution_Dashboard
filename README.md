@@ -136,7 +136,9 @@ The dashboard has Priority and Ticket Type slicers plus a date Timeline. All thr
 ---
 ## 👤 Key Insights and Recommendations
 Context: SLA results calculated using ITIL based targets and tickets resolved within 90 days.
+
 Key insights
+
 - 80.3% of tickets breach SLA.
 - 67% of tickets take over 3 days to resolve.
 - Epic tickets average 872 hours to resolve (36 days).
